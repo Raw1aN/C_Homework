@@ -1,0 +1,337 @@
+.All{
+    position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.Main{
+    display: flex;
+    justify-content: center;
+    margin: 32px auto 0;
+    max-width: 935px;
+    padding-bottom: 32px;
+    width: 100%;
+    position: relative;
+    flex-direction: row;
+    margin-top: 100px;
+    padding-right: 20px;
+}
+.DivBigPicture{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-size: 454px 618px;
+    height: 618px;
+    margin-left: -35px;
+    margin-right: -15px;
+
+}
+.BigPicture{
+
+}
+.Registration{
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    max-width: 350px;
+    margin-top: 32px;
+}
+.RegistrationTop{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    border: 1px solid rgba(var(--b6a,219,219,219),1)
+}
+}
+.DivInstagram{
+}
+.Instagram{
+    margin: 22px auto 12px;
+}
+.RegistrationCenter{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    max-width: 350px;
+    width: 100%;
+    margin-top: 24px;
+
+}
+.FirstInfo{
+    position: relative;
+    width: 100%;
+    max-width: 268px;
+    min-height: 38px;
+    margin: 0 40px 6px;
+    margin-bottom: 6px;
+}
+.FirstInfoIn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 0px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+}
+.SecondInfoIn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+}
+.SecondInfo{
+    position: relative;
+    width: 100%;
+    max-width: 268px;
+    min-height: 38px;
+    margin: 0 40px 6px;
+}
+.DivButtonIn{
+    position: relative;
+    width: 100%;
+    max-width: 268px;
+    min-height: 30px;
+    margin: 6px 40px 6px;
+}
+.ButtonIn{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    background-color: rgba(var(--d69,0,149,246),.3);
+    border: 1px solid transparent;
+    color: #fff;
+}
+.DivOr{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 268px;
+    min-height: 15px;
+    max-height: 15px;
+    margin: 10px 40px 18px;
+}
+.Line{
+    background-color: rgba(var(--b38,219,219,219),1);
+    height: 1px;
+    position: relative;
+    top: .45em;
+    width: 100%;
+}
+.Or{
+    margin: 0 18px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: Arial;
+    line-height: 15px;
+    color: rgba(var(--f52,142,142,142),1);
+}
+.DivFacebook{
+    position: relative;
+    width: 100%;
+    max-width: 268px;
+    min-height: 20px;
+    margin: 6px 40px 6px;
+}
+.FacebookIcon{
+    max-width: 16px;
+    min-height: 16px;
+    margin-right: 8px;
+}
+.FacebookButton{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: white;
+    cursor: pointer;
+}
+.InputFirst{
+    width: 100%;
+    padding: 9px 0 7px 8px;
+    background: rgba(var(--b3f,250,250,250),1);
+    border: 1px solid rgba(var(--ca6,219,219,219),1);
+    border-radius: 3px;
+    outline: none;
+    font-size: 12px;
+    font-family: Arial;
+    border-width:0 px
+}
+.ForgetPasswrod{
+    position: relative;
+    width: 100%;
+    max-width: 348px;
+    min-height: 24px;
+    max-height: 14px;
+    color: rgba(var(--fe0,0,55,107),1);
+    font-size: 12px;
+    line-height: 14px;
+    margin-top: 12px;
+    text-align: center;
+    font-family: Arial;
+}
+.RegistrationBot{
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    background-color: rgba(var(--d87,255,255,255),1);
+    border: 1px solid #dbdbdb;
+    border: 1px solid rgba(var(--b6a,219,219,219),1);
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+}
+.DivNoAccaunt{
+    font-size: 14px;
+    line-height: 18px;
+    margin: -3px 0 -4px;
+}
+.NoAccaunt{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    margin: 15px;
+    text-align: center;
+    font-family: Arial;
+}
+.Download{
+    color: rgba(var(--i1d,38,38,38),1);
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 20px 10px 20px;
+    text-align: center;
+    font-family: Arial;
+}
+.AppStore-PlayMarket{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 15px 0 15px 0;
+}
+.AppStore{
+    margin-right: 10px;
+}
+.AppStoreImg{
+    max-width: 136px;
+    max-height: 44px;
+}
+.PlayMarketImg{
+    max-width: 134px;
+    max-height: 40px;
+}
+.Footer{
+    margin-top: 78px;
+    width: 100%;
+    height: 100%;
+    max-height: 151px;
+}
+.FooterIn{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 52px;
+}
+.FooterFirstString{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    margin-top: 24px;
+    line-height: 14px;
+}
+.InfoFirst{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+}
+.Info{
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-bottom: 12px;
+    color: grey;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+}
+.AInfo{
+    color: grey;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+}
+.FacebookText{
+    color: #385185;
+    font: inherit;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial;
+
+}
+.FooterSecondString{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.Language{
+    color: grey;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+}
+.Language2{
+    color: grey;
+    text-decoration: none;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: 16px;
+}
+.Arrow{
+    width: 6px;
+      height: 6px;
+      border-top: 1px solid ;
+      border-right: 1px solid ;
+      margin-left: 8px;
+      transform: rotate(135deg);
+      color: grey;
+}
+.RegistrationButton{
+    color: rgba(var(--d69,0,149,246),1);
+}
